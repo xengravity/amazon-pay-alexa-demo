@@ -17,7 +17,7 @@ If you recieve the message `Thank you for ordering form Blitz and Chips` then yo
 
 ## Troubleshooting
 
-If you are having issues running the skill, double check that you have completed the following:
+If you are encountering issues with your skill, double check that you have completed the following:
 1. Link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central
 2. Create a sandbox buyer test account in Seller Central
 3. Enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay

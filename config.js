@@ -27,7 +27,7 @@ const utilities = require( 'utilities' );
     const countryOfEstablishment        = 'US';                                                             // Required;
     const ledgerCurrency                = 'USD';                                                            // Required; This doesn't exist in web SDK; GBP and EUR
     const needAmazonShippingAddress     = true;                                                             // Optional; Must be boolean;
-    const sandboxCustomerEmailId        = 'tcordov+alexa.demo@amazon.com';                                  // Optional; Required if sandboxMode equals true; Must setup Amazon Pay test account first;
+    const sandboxCustomerEmailId        = 'Add a valid sandbox buyer test email address here';				// Optional; Required if sandboxMode equals true; Must setup Amazon Pay test account first;
     const sandboxMode                   = true;     														// Optional; Must be false for certification; Must be boolean;
 
 // PROCESS PAYMENT

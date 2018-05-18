@@ -4,10 +4,13 @@ This is a 'bare-bones' demo to show how you can integrate Amazon Pay into your A
 ## Getting Started
 Read the integration guide: https://developer.amazon.com/docs/amazon-pay/amazon-pay-overview.html
   
-Once your [Alexa](https://alexa.amazon.com/), [Amazon Pay](https://pay.amazon.com/), [AWS](https://aws.amazon.com/), and [Developer](https://developer.amazon.com/) accounts are ready you can use this skill.
+Once your [Alexa](https://alexa.amazon.com/), [Amazon Pay](https://pay.amazon.com/), [AWS](https://aws.amazon.com/), and [Developer](https://developer.amazon.com/) accounts are ready you can modify this skill.
 1. Clone repository and install dependencies
 2. Open [config.js](config.js) and update values `appID`, `sellerId`, and `sandboxCustomerEmailId`
 3. Zip files and upload to Lambda
+4. [Link your accounts together](https://developer.amazon.com/docs/amazon-pay/amazon-pay-overview.html)
+5. Enable testing for your skill and invoke it:  
+![alt text](https://i.imgur.com/wB43vnu.png)
 
 ## Troubleshooting
 

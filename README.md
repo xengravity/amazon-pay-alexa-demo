@@ -13,20 +13,20 @@ Once your [Alexa](https://alexa.amazon.com/), [Amazon Pay](https://pay.amazon.co
 
   ![alt text](https://i.imgur.com/joMdlZl.png)
 
-If you recieve the message `Thank you for ordering form Blitz and Chips` then you have sucessfully configured your accounts! If you recieve an error, proceed to the troubleshooting steps below.
+If you recieve the message `Thank you for ordering form Blitz and Chips` then you have sucessfully configured your accounts! If you recieve an error, proceed to the [troubleshooting section](https://github.com/xengravity/amazon-pay-alexa-demo#troubleshooting).
 
 ## Troubleshooting
 
-If you are having issues running the skill, double check the following:
-1. Did you link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central? 
-2. Did you create a sandbox buyer test account in Seller Central?
-3. Did you enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay
-4. Did you link the correct Lambda function in your skill under Build > Endpoints > Default Region
-5. Did you upload the correct .zip file with the updated values in config.js?
-6. Did you link the correct skill Id in your Lambda function?
-7. Did you give the correct permissions for the role to use your Lambda function?
-8. Did you enable your skill in your Alexa App?
-9. Did you consent and give permissions to Amazon Pay in your Alexa App?
-10. Did you enable Voice Purchasing in your Alexa App?
+If you are having issues running the skill, double check that you have done the following:
+1. Link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central
+2. Create a sandbox buyer test account in Seller Central
+3. Enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay
+4. Link the correct Lambda function in your skill under Build > Endpoints > Default Region
+5. Upload the correct .zip file with the updated values in config.js
+6. Link the correct skill Id in your Lambda function
+7. Give the correct permissions for the role to use your Lambda function
+8. Enable your skill in your Alexa App
+9. Consent and give permissions to Amazon Pay in your Alexa App
+10. Enable Voice Purchasing in your Alexa App
 
 All other errors and decline handling can be found here: https://developer.amazon.com/docs/amazon-pay/payment-declines-and-processing-errors.html

@@ -10,7 +10,7 @@ Once your [Alexa](https://alexa.amazon.com/), [Amazon Pay](https://pay.amazon.co
 3. Zip files and upload to Lambda
 4. [Link your accounts together](https://developer.amazon.com/docs/amazon-pay/amazon-pay-overview.html)
 5. Enable testing for your skill and invoke it:  
-![alt text](https://i.imgur.com/wB43vnu.png)
+![alt text](https://i.imgur.com/joMdlZl.png)
 
 ## Troubleshooting
 
@@ -25,3 +25,5 @@ If you are having issues running the skill, double check the following:
 8. Did you enable your skill in your Alexa App?
 9. Did you consent and give permissions to Amazon Pay in your Alexa App?
 10. Did you enable Voice Purchasing in your Alexa App?
+
+All other errors and decline handling can be found here: https://developer.amazon.com/docs/amazon-pay/payment-declines-and-processing-errors.html

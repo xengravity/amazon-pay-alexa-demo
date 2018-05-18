@@ -8,7 +8,7 @@ Once your [Alexa](https://alexa.amazon.com/), [Amazon Pay](https://pay.amazon.co
 1. Clone repository and install dependencies
 2. Open [config.js](config.js) and update values `appID`, `sellerId`, and `sandboxCustomerEmailId`
 3. [Zip files and upload to Lambda](https://developer.amazon.com/docs/custom-skills/deploy-a-sample-skill-to-aws-lambda.html#preparing-a-nodejs-sample-to-deploy-in-lambda)
-4. [Link your accounts together](https://developer.amazon.com/docs/amazon-pay/amazon-pay-overview.html)
+4. [Link your accounts together](https://developer.amazon.com/docs/amazon-pay/integrate-skill-with-amazon-pay-v2.html#link_sc)
 5. [Enable testing](https://developer.amazon.com/docs/devconsole/test-your-skill.html) for your skill and invoke it:  
 
   ![alt text](https://i.imgur.com/joMdlZl.png)
@@ -17,7 +17,7 @@ If you recieve the message `Thank you for ordering form Blitz and Chips` then yo
 
 ## Troubleshooting
 
-If you are having issues running the skill, double check that you have done the following:
+If you are having issues running the skill, double check that you have completed the following:
 1. Link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central
 2. Create a sandbox buyer test account in Seller Central
 3. Enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay

@@ -8,12 +8,12 @@ Once your [Alexa](https://alexa.amazon.com/), [Amazon Pay](https://pay.amazon.co
 1. Clone repository and install dependencies
 2. Open [config.js](config.js) and update values `appID`, `sellerId`, and `sandboxCustomerEmailId`
 3. [Zip files and upload to Lambda](https://developer.amazon.com/docs/custom-skills/deploy-a-sample-skill-to-aws-lambda.html#preparing-a-nodejs-sample-to-deploy-in-lambda)
-4. [Link your accounts together](https://developer.amazon.com/docs/amazon-pay/integrate-skill-with-amazon-pay-v2.html#link_sc)
+4. [Link your accounts](https://developer.amazon.com/docs/amazon-pay/integrate-skill-with-amazon-pay-v2.html#link_sc)
 5. [Enable testing](https://developer.amazon.com/docs/devconsole/test-your-skill.html) for your skill and invoke it:  
 
   ![alt text](https://i.imgur.com/joMdlZl.png)
 
-If you recieve the message `Thank you for ordering form Blitz and Chips` then you have sucessfully configured your accounts! If you recieve an error, proceed to the [troubleshooting section](https://github.com/xengravity/amazon-pay-alexa-demo#troubleshooting).
+If you receive the message `Thank you for ordering form Blitz and Chips` then you have successfully configured your skill! If you receive an error, proceed to the [troubleshooting section](https://github.com/xengravity/amazon-pay-alexa-demo#troubleshooting).
 
 ## Troubleshooting
 

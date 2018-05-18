@@ -1,16 +1,17 @@
 # Amazon Pay for Alexa Demo
 This is a 'bare-bones' demo to show how you can integrate Amazon Pay into your Alexa skill.  
+
+## Getting Started
+Read the integration guide: https://developer.amazon.com/docs/amazon-pay/amazon-pay-overview.html
   
-Read the integration guide to get started: https://developer.amazon.com/docs/amazon-pay/amazon-pay-overview.html
-  
-Once your [Amazon Pay](https://pay.amazon.com/), [AWS](https://aws.amazon.com/), [Developer](https://developer.amazon.com/), and [Alexa](https://alexa.amazon.com/) accounts are ready you can use this skill by following the steps below:
+Once your [Amazon Pay](https://pay.amazon.com/), [AWS](https://aws.amazon.com/), [Developer](https://developer.amazon.com/), and [Alexa](https://alexa.amazon.com/) accounts are ready you can use this skill.
 1. Clone repository and install dependencies
 2. Open [config.js](config.js) and update values `appID`, `sellerId`, and `sandboxCustomerEmailId`
 3. Zip files and upload to Lambda
 
 ## Troubleshooting
 
-If you are having issues getting the skill to run, double check the following:
+If you are having issues running the skill, double check the following:
 1. Did you link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central? 
 2. Did you create a sandbox buyer test account in Seller Central?
 3. Did you enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay

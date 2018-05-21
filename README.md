@@ -18,15 +18,17 @@ If you receive the message `Thank you for ordering form Blitz and Chips` then yo
 ## Troubleshooting
 
 If you are encountering issues with your skill, double check that you have completed the following:
-1. Link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central
-2. Create a sandbox buyer test account in Seller Central
-3. Enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay
-4. Link the correct Lambda function in your skill under Build > Endpoints > Default Region
-5. Upload the correct .zip file with the updated values in config.js
-6. Link the correct skill Id in your Lambda function
-7. Give the correct permissions for the role to use your Lambda function
-8. Enable your skill in your Alexa App
-9. Consent and give permissions to Amazon Pay in your Alexa App
-10. Enable Voice Purchasing in your Alexa App
+
+1. Confirm that your Seller Central account is in good standing by selecting the Production environment and verify there are no errors on your account
+2. Link the correct skill in the appropriate environment ( Sandbox / Production ) in Seller Central
+3. Create a sandbox buyer test account in Seller Central
+4. Enable Amazon Pay permissions in your skill under Build > Permissions > Amazon Pay
+5. Link the correct Lambda function in your skill under Build > Endpoints > Default Region
+6. Upload the correct .zip file with the updated values in config.js
+7. Link the correct skill Id in your Lambda function
+8. Give the correct permissions for the role to use your Lambda function
+9. Enable your skill in your Alexa App
+10. Consent and give permissions to Amazon Pay in your Alexa App
+11. Enable Voice Purchasing in your Alexa App
 
 All other errors and decline handling can be found here: https://developer.amazon.com/docs/amazon-pay/payment-declines-and-processing-errors.html

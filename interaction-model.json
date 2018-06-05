@@ -1,0 +1,31 @@
+{
+    "interactionModel":
+    {
+        "languageModel":
+        {
+            "invocationName": "blitz and chips",
+            "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.YesIntent",
+                "samples": ["yup"]
+            },
+            {
+                "name": "AMAZON.NoIntent",
+                "samples": ["nope"]
+            }],
+            "types": []
+        }
+    }
+}
